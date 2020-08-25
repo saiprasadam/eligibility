@@ -9,7 +9,7 @@ import com.eligibility.benefit.Repo.CascadeSave;
 
 import lombok.Data;
 
-//@Data
+@Data
 public class Benefit {
 
 //	@DBRef(db="policies")
@@ -34,7 +34,7 @@ public class Benefit {
 	private long currentEligibleAmount;
 	
 	
-	public String getId() {
+	/*public String getId() {
 		return id;
 	}
 	public void setId(String id) {
@@ -79,7 +79,7 @@ public class Benefit {
 	public Benefit() {
 		super();
 		// TODO Auto-generated constructor stub
-	}
+	}*/
 	/*@Override
 	public String toString() {
 		return "Benefit [id=" + id + ", policyId=" + policyId + ", policyName=" + policyName + ", policyBenefits="

@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.Data;
 
-//@Data
+@Data
 @Document
 public class Policies {
 	
@@ -22,7 +22,7 @@ public class Policies {
 	private Long claimableAmount;
 
 	
-	public Policies(String policyId, String policyName, String policyBenefits, Long claimableAmount) {
+/*	public Policies(String policyId, String policyName, String policyBenefits, Long claimableAmount) {
 		super();
 		this.policyId = policyId;
 		this.policyName = policyName;
@@ -72,5 +72,5 @@ public class Policies {
 	
 	
 	
-
+*/
 }
